@@ -15,7 +15,7 @@ function setup(){
         forceY = o.beta/50;
     });
 
-    for (var i = 0; i < 6; i++) {
+    for (var i = 0; i < 2; i++) {
     	bars[i] = new Bar();
     };
 }
@@ -39,7 +39,7 @@ function Bar(){
 	this.y = height/2;
 	this.vitx = random(2, 12);
 	this.vity = random(2, 12);
-	this.diam = random(20, 60);
+	this.diam = 40;
 }
 
 
